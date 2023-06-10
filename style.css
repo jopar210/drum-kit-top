@@ -14,7 +14,7 @@ html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 90.9vh;
   align-items: center;
   justify-content: center;
 }
@@ -49,4 +49,43 @@ kbd {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #ffc600;
+}
+
+.footer {
+  margin-top: auto;
+  height: 70px;
+  width: 100%;
+  background-color: #e39a62;
+  z-index: 1;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.6rem;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  /* margin-bottom: 0.3rem; */
+  margin-top: 3px;
+}
+
+.github-icon {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.github-icon:hover {
+  transform: translateY(-2px);
 }
