@@ -51,7 +51,7 @@ kbd {
   color: #ffc600;
 }
 
-.footer {
+/* .footer {
   margin-top: auto;
   height: 70px;
   width: 100%;
@@ -75,7 +75,6 @@ kbd {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  /* margin-bottom: 0.3rem; */
   margin-top: 3px;
 }
 
@@ -88,4 +87,4 @@ kbd {
 
 .github-icon:hover {
   transform: translateY(-2px);
-}
+} */
